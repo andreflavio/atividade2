@@ -16,12 +16,12 @@ npm start
 
 ### Pasta components
 - Toda a formatação dos componentes utiliza styled-components;
-- `Block`: componente usado para contruir a caixa onde colocamos os campos de entrada. A cor de fundo desse componente é alterada de acordo com os valores fornecidos nos campos de entrada; 
+- `Block`: componente usado para construir a caixa onde colocamos os campos de entrada. A cor de fundo desse componente é alterada de acordo com os valores fornecidos nos campos de entrada; 
 - `Input`: componente usado para construir cada campo de entrada. As propriedades `min` e `max` estabelecem os limites de valores aceitos pelo componente:
 ```<Input label="R" value={r} setValue={setR} min={0} max={255} />```
 - `Line`: componente usado para receber os campos de entrada;
 - `Title`: componente usado para criar o título que colocamos dentro do `Block`;
-- `HSLAColor` e `RGBColor`: componente usado para criar o painel de entrada das cores HSLA e RGB. Caberá a você codificar o componente `CMYKColor` seguindo a mesma estrutura. Os valores mínimos e máximos de C, M, Y e K é `[0,1]` ou pode ser representado no intervalo `[0%,100%]`;
+- `HSLAColor` e `RGBColor`: componente usado para criar o painel de entrada das cores HSLA e RGB, respectivamente. Caberá a você codificar o componente `CMYKColor` seguindo a mesma estrutura. Os valores mínimos e máximos de C, M, Y e K é `[0,1]` ou pode ser representado no intervalo `[0%,100%]`.
 
 ### Pasta contexts
 - `HSLAContext`: define o `Provider` e `Context` usado para manter as propriedades da cor HSLA;
