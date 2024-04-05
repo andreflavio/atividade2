@@ -1,7 +1,7 @@
 ## Atividade - React Context e Styled Components
 
 O objetivo do aplicativo é permitir ao usuário compor cores usando RGB, HSLA e CMYK.
-Falta implementar o componente para compor cores usando CMYK.
+Falta implementar o componente para compor cores usando CMYK. Será necessário manter a estrutura fornecida e utilizar somente os componentes `Block`,`Title`,`Line` e `Input` para criar o componente CMYK.
 
 ![](https://github.com/arleysouza/react-context-styled/blob/main/images/front.png)
 
