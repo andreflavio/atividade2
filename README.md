@@ -3,6 +3,8 @@
 O objetivo do aplicativo é permitir ao usuário compor cores usando RGB, HSLA e CMYK.
 Falta implementar o componente para compor cores usando CMYK.
 
+!(https://github.com/arleysouza/react-context-styled/blob/main/images/front.png)
+
 ### Instruções de uso
 Todos os pacotes necessários já estão no `package.json`.
 ```
